@@ -182,7 +182,8 @@
                 android:textSize="20sp"
                 android:textFontWeight="500"
                 android:onClick="calcBtnPressed"
-                android:id="@+id/btnClr"/>
+                android:id="@+id/btnClr"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
             <Button
                 android:layout_width="0dp"
@@ -194,7 +195,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="calcBtnPressed"
-                android:id="@+id/btnSign"/>
+                android:id="@+id/btnSign"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
             <Button
                 android:layout_width="0dp"
@@ -206,7 +208,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="calcBtnPressed"
-                android:id="@+id/btnPercent"/>
+                android:id="@+id/btnPercent"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
             <ImageButton
                 android:layout_width="0dp"
@@ -218,7 +221,8 @@
                 android:onClick="backBtnPressed"
                 android:scaleType="centerInside"
                 android:id="@+id/btnBack"
-                app:tint="?colorOnPrimary"/>
+                app:tint="?colorOnPrimary"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
         </LinearLayout>
 
@@ -236,7 +240,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="numBtnPressed"
-                android:id="@+id/btnSeven"/>
+                android:id="@+id/btnSeven"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
             <Button
                 android:layout_width="0dp"
@@ -247,7 +252,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="numBtnPressed"
-                android:id="@+id/btnEight"/>
+                android:id="@+id/btnEight"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
             <Button
                 android:layout_width="0dp"
@@ -258,7 +264,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="numBtnPressed"
-                android:id="@+id/btnNine"/>
+                android:id="@+id/btnNine"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
             <Button
                 android:layout_width="0dp"
@@ -269,7 +276,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="calcBtnPressed"
-                android:id="@+id/btnDivide"/>
+                android:id="@+id/btnDivide"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
         </LinearLayout>
 
@@ -287,7 +295,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="numBtnPressed"
-                android:id="@+id/btnFour"/>
+                android:id="@+id/btnFour"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
             <Button
                 android:layout_width="0dp"
@@ -298,7 +307,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="numBtnPressed"
-                android:id="@+id/btnFive"/>
+                android:id="@+id/btnFive"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
             <Button
                 android:layout_width="0dp"
@@ -309,7 +319,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="numBtnPressed"
-                android:id="@+id/btnSix"/>
+                android:id="@+id/btnSix"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
             <Button
                 android:layout_width="0dp"
@@ -321,7 +332,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="calcBtnPressed"
-                android:id="@+id/btnMultiply"/>
+                android:id="@+id/btnMultiply"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
         </LinearLayout>
 
@@ -339,7 +351,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="numBtnPressed"
-                android:id="@+id/btnOne"/>
+                android:id="@+id/btnOne"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
             <Button
                 android:layout_width="0dp"
@@ -350,7 +363,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="numBtnPressed"
-                android:id="@+id/btnTwo"/>
+                android:id="@+id/btnTwo"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
             <Button
                 android:layout_width="0dp"
@@ -361,7 +375,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="numBtnPressed"
-                android:id="@+id/btnThree"/>
+                android:id="@+id/btnThree"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
             <Button
                 android:layout_width="0dp"
@@ -372,7 +387,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="calcBtnPressed"
-                android:id="@+id/btnSubtract"/>
+                android:id="@+id/btnSubtract"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
         </LinearLayout>
 
@@ -390,7 +406,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="numBtnPressed"
-                android:id="@+id/btnDecimal"/>
+                android:id="@+id/btnDecimal"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
             <Button
                 android:layout_width="0dp"
@@ -401,7 +418,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="numBtnPressed"
-                android:id="@+id/btnZero"/>
+                android:id="@+id/btnZero"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
             <Button
                 android:layout_width="0dp"
@@ -412,7 +430,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="calcBtnPressed"
-                android:id="@+id/btnEqual"/>
+                android:id="@+id/btnEqual"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
             <Button
                 android:layout_width="0dp"
@@ -423,7 +442,8 @@
                 tools:ignore="OnClick,hardCodedText"
                 android:textSize="20sp"
                 android:onClick="calcBtnPressed"
-                android:id="@+id/btnAdd"/>
+                android:id="@+id/btnAdd"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
         </LinearLayout>
 

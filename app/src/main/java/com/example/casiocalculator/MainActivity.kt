@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.view.animation.AnimationUtils
 import android.widget.Button
 import android.widget.TextView
 import com.example.casiocalculator.databinding.ActivityMainBinding
@@ -50,6 +51,8 @@ class MainActivity : AppCompatActivity() {
 
     @SuppressLint("SetTextI18n")
     fun numBtnPressed(view:View) {
+        val bounceAnim = AnimationUtils.loadAnimation(this,R.anim.bounce)
+        view.startAnimation(bounceAnim)
         val numValue = (view as Button).text
         if (isFinishedTypingNumber) {
             displayLabel?.text = numValue
@@ -66,6 +69,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun calcBtnPressed(view:View) {
+        val bounceAnim = AnimationUtils.loadAnimation(this,R.anim.bounce)
+        view.startAnimation(bounceAnim)
         isFinishedTypingNumber = true
         this.calculator.setNumber(displayValue)
         val calcMethod = (view as Button).text
@@ -75,6 +80,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun backBtnPressed(view:View) {
+        val bounceAnim = AnimationUtils.loadAnimation(this,R.anim.bounce)
+        view.startAnimation(bounceAnim)
         if (!isFinishedTypingNumber) {
             displayLabel?.text.let {
                 var newNumber = it.toString().dropLast(1)
