@@ -1,4 +1,4 @@
-package com.example.casiocalculator
+package com.himanshumatharu.casiocalculator
 
 import org.junit.Test
 

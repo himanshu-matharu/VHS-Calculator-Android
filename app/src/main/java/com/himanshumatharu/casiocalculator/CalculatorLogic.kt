@@ -1,4 +1,4 @@
-package com.example.casiocalculator
+package com.himanshumatharu.casiocalculator
 
 class CalculatorLogic {
 

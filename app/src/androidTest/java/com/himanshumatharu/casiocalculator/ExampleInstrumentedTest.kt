@@ -1,4 +1,4 @@
-package com.example.casiocalculator
+package com.himanshumatharu.casiocalculator
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

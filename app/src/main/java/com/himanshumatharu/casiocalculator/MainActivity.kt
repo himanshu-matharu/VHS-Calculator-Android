@@ -1,4 +1,4 @@
-package com.example.casiocalculator
+package com.himanshumatharu.casiocalculator
 
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +7,7 @@ import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.Button
 import android.widget.TextView
-import com.example.casiocalculator.databinding.ActivityMainBinding
+import com.himanshumatharu.casiocalculator.databinding.ActivityMainBinding
 import kotlin.math.floor
 
 class MainActivity : AppCompatActivity() {

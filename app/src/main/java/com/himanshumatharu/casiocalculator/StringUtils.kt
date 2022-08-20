@@ -1,4 +1,4 @@
-package com.example.casiocalculator
+package com.himanshumatharu.casiocalculator
 
 object StringUtils {
     fun trimTrailingZero(value:String?):String?{
