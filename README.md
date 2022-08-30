@@ -10,7 +10,7 @@
 </div>
 
 ## Play Store link
-The app is under review on Google Play Store and will be available soon.
+<a href='https://play.google.com/store/apps/details?id=com.himanshumatharu.casiocalculator&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height="auto" width="200px"/></a>
 
 ## iOS Version
 The iOS version of the app is available <a href="https://github.com/himanshu-matharu/VHS-Calculator">here</a>.
